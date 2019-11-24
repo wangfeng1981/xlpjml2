@@ -1,0 +1,1857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\agriculture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\biomass_grass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\biomass_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\biomes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cdf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\channel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\climate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\climbuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\coord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cropdates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\date.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\discharge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\errmsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\grass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\grassland.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\intlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\landuse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lpj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\manage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\managepar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\natural.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\numeric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\outfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\output.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\param.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pft.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pftlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pftpar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pnet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\reservoir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soilpar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spitfire.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\swap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\units.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\climate\avgtemp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\checkvalidclimate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\closeclimate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\dailyclimate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\freeclimate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\getclimate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\getco2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\getmprec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\getmtemp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\initclimate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\initclimate_monthly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\openclimate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\prdaily.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\radiation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\readco2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climate\storeclimate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpl\cpl_free.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpl\cpl_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\agb_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\albedo_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\allocation_daily_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\alphaa_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\calc_cropdates.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\calc_seasonality.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\double_harvest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fpar_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fpc_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fprint_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fprintcropdates.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fprintpar_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fread_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\freadcropdates.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\free_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\freecropdates.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fscanpft_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fwrite_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\fwritecropdates.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\harvest_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\init_cropdates.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\lai_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\laimax_manage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\litter_update_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\new_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\npp_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\output_daily_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\phen_variety.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\phenology_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\update_cropdates.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\update_fallowdays.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\vegc_sum_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crop\wdf_crop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\adjust_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\agb_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\albedo_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\allocation_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\alphaa_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\annual_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\establishment_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\fire_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\fpar_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\fpc_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\fprint_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\fprintpar_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\fread_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\free_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\fscanpft_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\fwrite_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\init_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\lai_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\light_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\litter_update_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\livefuel_consum_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\mix_veg_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\new_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\npp_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\phenology_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\reduce_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\turnover_daily_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\turnover_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\turnover_monthly_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grass\vegc_sum_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\biome_classification.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\close_image.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\getproductpools.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\initproductinit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\monthlyoutput_image.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\new_image.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\open_image.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\product_turnover.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\receive_image_climate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\receive_image_co2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\receive_image_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\receive_image_luc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\receive_image_productpools.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\send_image_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image\setoutput_image.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\allocation_today.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\annual_agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\annual_biomass_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\annual_biomass_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\annual_grassland.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\annual_setaside.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\biomass_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\biomass_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\calc_nir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\check_lu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\createcountrycode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\crop_sum_frac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\cultivate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\cutpfts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\daily_agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\daily_biomass_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\daily_biomass_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\daily_grassland.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\daily_setaside.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\distribute_water.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\findlandusetype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\findstand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\fprint_agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\fprintcountrypar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\fprintregionpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\fread_agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\free_agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\freecountrypar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\freemanage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\freeregionpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\fscancountrypar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\fscanregionpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\fwrite_agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\grassland.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\harvest_stand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\initmanage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\irrig_amount.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\irrigation_stand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\killstand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\landfrac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\landuse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\landusechange.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\new_agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\opencountrycode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\output_gbw_agriculture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\output_gbw_biomass_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\output_gbw_biomass_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\output_gbw_grassland.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\readcountrycode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\reclaim_land.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\rw_irrigation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\setaside.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\sowing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\sowing_prescribe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\sowing_season.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\timber_burn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\timber_harvest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\wateruse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\withdrawal_demand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\woodconsum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\writecountrycode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\landuse\writeregioncode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\albedo_stand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\annual_natural.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\celldata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\cflux_sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\check_balance.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\check_fluxes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\check_stand_fracs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\climbuf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\closeoutput_yearly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\copyright.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\createpftnames.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\daily_natural.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\drain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\equilsom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\equilveg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\establish.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\establishmentpft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fcloseoutput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\filesexist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\firepft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\flux_sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fopenoutput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fpc_sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprint_natural.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintcell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintfiles.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintflux.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintincludes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintpft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintpftpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fprintstand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fread_natural.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freadcell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freadpft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freadstand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\free_natural.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freecell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freeconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freegrid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freeinput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freeoutput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freeoutputvar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freepft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\freepftpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fscanconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fscanemissionfactor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fscanlimit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fscanoutput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fscanoutputvar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fscanparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fscanpftpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fscanphenparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwrite_natural.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwritecell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwriteoutput_annual.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwriteoutput_daily.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwriteoutput_daily2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwriteoutput_monthly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwriteoutput_monthly2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwriteoutput_pft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwritepft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwriterestart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\fwritestand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\getextension.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\getnbiomass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\getoutputtype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\getsize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\gp_sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\help.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\init_annual.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initdrain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initgdd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initinput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initmpiconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initoutput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initoutput_annual.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initoutput_daily.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\initoutput_monthly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\interception.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\ismonthlyoutput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\iterate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\iterateyear.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\landcover.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\light.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\natural.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\new_natural.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\newgrid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\newpft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\noadjust.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\noestablishment.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\nofire.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\noinit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\nomix_veg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\noturnover_monthly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\nowdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\openconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\outputbuffersize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\outputfilesize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\outputnames.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\outputsize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\pftlist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\phenology_gsi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\photosynthesis.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\printlicense.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\readconfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\readfilename.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\roughnesslength.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\standcarbon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\standlist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\survive.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\temp_stress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\transfer_function.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\update_annual.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\update_daily.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\update_monthly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\updategdd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\water_stressed.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\waterusefcns.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpj\writecoords.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\close_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\closeclimate_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\coord_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\create_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\create_pft_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\create1_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\create1_pft_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\createcoord.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\createcoord_all.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\createindex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\freecoordarray.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\getlatlon_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\getvar_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\input_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\mpi_openclimate_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\mpi_write_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\mpi_write_pft_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\open_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\openclimate_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\opendata_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\openfile_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\readclimate_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\readdata_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\readintdata_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\readshortdata_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\write_float_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\write_int_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\write_pft_float_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\write_pft_short_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcdf\write_short_netcdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\bilinear.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\bisect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\date.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\int2date.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\interpolate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\ivec_sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\leftmostzero.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\linreg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\petpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\petpar2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\petpar3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\rand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnet\intlist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnet\pnet_addconnect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnet\pnet_dup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnet\pnet_free.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnet\pnet_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnet\pnet_reverse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnet\pnet_setup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnet\pnet_strerror.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\allocate_reservoir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\check_stand_fracs_for_reservoir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\fprintresdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\freadresdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\fwriteresdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\initresdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\initreservoir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\landusechange_for_reservoir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\outflow_reservoir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\readreservoir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\reservoir_surface_storage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\sum_irrig_demand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\update_reservoir_annual.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\update_reservoir_daily.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\update_reservoir_monthly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\close_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\connect_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\connecttdt_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fclose_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fconnect_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fconnecttdt_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fgetclientname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fmpi_read_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fmpi_write_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fopen_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fopentdt_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\freaddouble_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\freadfloat_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\freadint_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\freadlong_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\freadshort_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\freadstring_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fwritedouble_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fwritefloat_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fwriteint_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fwritelong_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fwriteshort_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\fwritestring_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\getclientname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\mpi_read_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\mpi_write_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\open_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\opentdt_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\read_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\readdouble_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\readfloat_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\readint_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\readlong_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\readshort_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\readstring_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\write_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket\writestring_socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\addlitter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\albedo_soil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\convert_water.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\copysoil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\equilsoil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\findlitter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fire_prob.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fire_sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fopensoilcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fprintlitter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fprintsoil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fprintsoilpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\freadlitter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\freadsoil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\freadsoilcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\freelitter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\freesoil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\freesoilpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fscanpool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fscansoilpar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fwritelitter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\fwritesoil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\getlag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\getnsoilcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\getstate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\getwr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\infil_perc_irr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\infil_perc_rain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\initsoil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\initsoiltemp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\laketemp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\litter_ag_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\litter_ag_sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\litter_ag_sum_quick.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\litter_ag_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\littersom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\littersum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\moistfactor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\moisture2soilice.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\newsoil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\seeksoilcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\snow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\soilcarbon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\soilconduct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\soilheatcap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\soilice2moisture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\soiltemp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\soilwater.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\temp_response.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soil\waterbalance.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\area_burnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\dailyfire.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\deadfuel_consumption.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\fire_emissions.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\firedangerindex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\fraction_of_consumption.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\fuel_consum_total.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\fuel_consumption_1hr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\fuelload.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\humanignition.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\initfuel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\initignition.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\litter_update_fire.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\popdens.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\rateofspread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\surface_fire_intensity.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\update_fbd_grass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\update_fbd_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\update_nesterov.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\wildfire_ignitions.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spitfire\windspeed_fpc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\addpath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\bigendian.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\catstrvec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\checkfmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\coord.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\diskfree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\enablefpe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fail.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\failonerror.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fbanner.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\findstr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fprintheader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fprintintf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fprinttime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fputprintable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fputstring.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\freadanyheader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\freadheader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\freadrestartheader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\freemat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\frepeatch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanarray.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanarrayindex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanbool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanfcns.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanfloat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscaninteof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanreal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanrealarray.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscansize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanstruct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fscanuint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\fwriteheader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\getcounts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\getdir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\getfiledate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\getfilesize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\gethost.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\getmetafilename.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\getpath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\getuser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\hassuffix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\headersize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\isabspath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\isboolean.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\iserror.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\iskeydefined.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\mkfilename.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\mpi_write.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\mpi_write_txt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\newmat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\openinputfile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\openmetafile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\openrestart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\printflags.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\queue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\readfloatvec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\readintvec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\readrealvec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\readuintvec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\strdate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\strippath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\stripsuffix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\swap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\sysname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\adjust_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\agb_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\albedo_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\allocation_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\allometry_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\alphaa_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\annual_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\coppice_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\establishment_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\fire_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\firemortality_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\fpar_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\fpc_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\fprint_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\fprintpar_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\fread_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\free_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\fscanpft_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\fwrite_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\init_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\isneg_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\lai_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\light_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\litter_update_fire_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\litter_update_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\livefuel_consum_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\mix_veg_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\mortality_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\new_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\npp_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\phenology_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\reduce_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\turnover_daily_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\turnover_monthly_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\turnover_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree\vegc_sum_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\getbuild.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpjml.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reservoir\irrig_amount_reservoir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
